@@ -22,5 +22,6 @@
 			"type": "select",
 			"contentFolders": ["lime"]
 		}
-	]
+	],
+	"updateCheck": "https://github.com/atampy25/h3-alternate-instinct/releases/latest/download/updates.json"
 }

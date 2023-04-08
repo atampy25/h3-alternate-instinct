@@ -1,9 +1,26 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Incredible Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.15.1"
+	"version": "1.0.0",
+	"id": "Atampy26.AlternateInstinctOverlay",
+	"name": "Alternate Instinct Overlay",
+	"description": "Replaces the grey overlay of instinct with one of two alternate colours.",
+	"authors": ["Atampy26"],
+	"frameworkVersion": "2.21.2",
+	"options": [
+		{
+			"group": "Colour",
+			"name": "Rose",
+			"image": "rose.png",
+			"enabledByDefault": true,
+			"type": "select",
+			"contentFolders": ["rose"]
+		},
+		{
+			"group": "Colour",
+			"name": "Lime",
+			"image": "lime.png",
+			"type": "select",
+			"contentFolders": ["lime"]
+		}
+	]
 }
